@@ -11,8 +11,9 @@ def squareAndMultiply(x, b, n):
     # Si le bit est 1, on multiplie le résultat par x
     if bit == "1":
       result = (result * x) % n
-  # On renvoie le résultat
-  return result
+      # on renvoie le résultat
+
+ return result
 
 # Exemple d'utilisation
 # On demande à l'utilisateur de saisir les valeurs de x, b et n
